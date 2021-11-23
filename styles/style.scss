@@ -1,0 +1,20 @@
+@import './variables';
+@import './header';
+
+// .contact button{
+//     background-color: $primaryBtn;
+// }
+
+
+// .contact{
+//     @include flexCenter(row, red);
+    
+//  }
+ 
+//inherit styles from header
+.contact{
+    @extend header;
+    background-color: sienna; //last style ta apply hobe style hishebe
+    background-color: rgb(45, 160, 135); 
+    width: 100%-20%;
+}
